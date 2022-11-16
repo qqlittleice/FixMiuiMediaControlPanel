@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.yuk.fixMiuiMediaControlPanel">
+
+    <application
+        android:label="Miui 音乐封面修复"
+        android:supportsRtl="false"
+        tools:ignore="MissingApplicationIcon">
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/xposed_scope" />
+
+        <meta-data
+            android:name="xposeddescription"
+            android:value="字面意思" />
+
+        <meta-data
+            android:name="xposedminversion"
+            android:value="82" />
+    </application>
+</manifest>
